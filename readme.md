@@ -40,7 +40,7 @@ Here an example output from this script:
 
 You can change the names in key:value pair by changing these variables to your preferred variable.
 
-![Change Variables](https://github.com/Sandworks/ping_sweep/blob/6ff88c1128944e18e70baf692f9f56e7006aa6c2/change.png)
+![Change Variables](https://github.com/Sandworks/ping_sweep/blob/ac0b3095d84c0d94d449ed56ad0bbdecb3d5f531/change.png)
 
 Enjoy!
 
