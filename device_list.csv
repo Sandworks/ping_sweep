@@ -1,0 +1,4 @@
+name,ip,backup
+SWI01,192.168.1.1,true
+SWI02,192.168.1.2,true
+SWI03,192.168.1.3,false
