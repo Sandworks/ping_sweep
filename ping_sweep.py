@@ -2,7 +2,7 @@
 
 # Filename: ping_sweep.py
 # Author:   James Sanders
-# Version:  1.0
+# Version:  1.1
 
 # Import dependencies
 import json
@@ -26,7 +26,9 @@ with open(jsonfile) as file:
 
     # check responsive for each device
     for device in devices["devices"]:
-        if ping(device['ip']):
+        search_string = "Reply from " + device["ip"]
+        # if output contains "Reply from <ip>" then is successful.
+        if search_string in str(ping(device["ip"])):
             # if successful
             print("   hostname: {} ({}) is up".format(device["name"], device["ip"]))
         else:
